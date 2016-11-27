@@ -2,7 +2,7 @@ var express = require("express"),
 	path = require("path"),
 	app = express(),
 	bodyParser = require('body-parser'),
-	port = 5000,
+	port = 3005,
 	messages = [];
 
 app.use(bodyParser.urlencoded({ extended: true }));
